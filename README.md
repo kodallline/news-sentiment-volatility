@@ -1,7 +1,6 @@
 # news-sentiment-volatility
 # News Sentiment as a Factor Influencing Stock Market Volatility (2020–2025)
 ## About
-
 This project investigates whether negative news sentiment has a stronger impact 
 on stock market volatility than positive sentiment, with a focus on high-uncertainty 
 periods.
@@ -11,14 +10,6 @@ periods.
   AMD, NFLX, JPM, GS, JNJ, XOM, DIS  
 - **Rows:** ~22,300 ticker-day observations  
 - **Sources:** Yahoo Finance · Polygon.io (66k+ articles) · CNN Fear & Greed · Google Trends
-
-## Results Summary
-
-| Hypothesis | Result |
-|---|---|
-| H1: Asymmetric sentiment effect | ✅ Supported (t=2.14, p=0.016, d=0.157) |
-| H2: Crisis amplification | ✅ Supported (stress slope r=+0.099 vs calm r=−0.027) |
-| H3: XGBoost improvement | ❌ Not supported (ΔAUC=−0.017) |
 
 ## How to Run
 
